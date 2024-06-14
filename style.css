@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+:root {
+  --bg-color: hsl(210, 90%, 40%);
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5mm;
+  font-weight: 300;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.A4 {
+  width: 210mm;
+  height: 296.8mm;
+  outline: 1px solid rgba(0 0 0 / .3);
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: block;
+  margin-top: 5mm;
+  text-align: center;
+  color: var(--bg-color);
+}
+
+.cv {
+  display: flex;
+  gap: 5mm;
+  margin: 3mm;
+  height: 100%;
+}
+
+.colored {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding: 10mm 3mm;
+  align-items: center;
+  gap: 8mm;
+  border-radius: 2mm;
+  max-width: 61mm;
+}
+
+.aside-name {
+  font-weight: 500;
+  font-size: 6.4mm;
+}
+
+.aside-title {
+  font-weight: 350;
+  font-size: 4.7mm;
+  text-align: center;
+}
+
+.rest {
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+}
+
+.upper {
+  margin-bottom: 5pt;
+}
+
+.aside-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 4.6mm;
+}
+
+.aside-text {
+  text-align: center;
+  margin-block: 1mm;
+}
+
+.down {
+  margin-top: 90pt;
+}
+
+a {
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 5.5mm;
+}
+
+.main-divider {
+  padding: .5mm 2mm;
+  border-radius: 1.5mm;
+  display: flex;
+  gap: 2.5mm;
+  align-items: center;
+}
+
+.margin-left-2mm {
+  margin-left: 2mm;
+}
+
+.work {
+  display: flex;
+  gap: 7mm;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.title {
+  font-size: 4mm;
+  padding-bottom: 1mm;
+  text-transform: uppercase;
+}
+
+.work-info-role {
+  font-weight: 400;
+}
+
+.work-info-role::before {
+  content: " | ";
+}
+
+.work-info-bulletpoints {
+  margin-left: 8mm;
+}
+
+.work-timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 1mm;
+}
+
+.work-timeline-text {
+  font-size: 3mm;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 1.5mm;
+}
+
+.work-time {
+  height: 100%;
+  width: 1mm;
+  margin: 1mm 5.3mm;
+  border-radius: 1mm;
+  background-color: rgba(0 0 0 / .25);
+}
+
+.italic {
+  font-style: italic;
+  margin-top: 50pt;
+}
+
+
+#profilePicture {
+  height: 38mm;
+  width: 38mm;
+  border-radius: 50mm;
+  object-fit: cover;
+}
+
+.skills-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-chips {
+
+  display: flex;
+  gap: 2mm;
+}
+
+.chip {
+  border-radius: 50mm;
+  font-weight: 400;
+  padding: 1mm 2mm;
+  border: .4mm solid black;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 4mm;
+}
+
+.icon {
+  margin-right: 2mm;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 350,
+    'GRAD' 0,
+    'opsz' 48
+}
