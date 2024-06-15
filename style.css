@@ -80,15 +80,6 @@ video {
   text-align: center;
 }
 
-.rest {
-  margin-top: 5pt;
-  margin-bottom: 5pt;
-}
-
-.upper {
-  margin-bottom: 5pt;
-}
-
 .aside-data {
   display: flex;
   flex-direction: column;
@@ -181,6 +172,26 @@ a {
 
 li {
   margin-bottom: 1.5mm;
+}
+
+.icon-big {
+  height: 25pt;
+  width: 25pt;
+}
+
+.contacts {
+  display: flex;
+  margin-bottom: 5pt;
+}
+
+.icon-small {
+  height: 15pt;
+  width: 15pt;
+  margin-right: 8pt;
+}
+
+#socials {
+  display: flex;
 }
 
 .work-time {
